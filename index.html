@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MadLibs Project - Sevilla Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Mad Libs</h1>
+      <form>
+        <h3>Pick Your Words</h3>
+
+        <input type="text" 
+            placeholder="A Relative" 
+            id="relative">
+        <input type="text" 
+           placeholder="Adjective" 
+           id="adjective-1">
+        <input type="text" 
+           placeholder="Adjective" 
+           id="adjective-2">
+        <input type="text" 
+           placeholder="Adjective" 
+           id="adjective-3">
+        <input type="text" 
+           placeholder="A Famous Person" 
+           id="famous-person">
+        <input type="text" 
+           placeholder="Noun" 
+           id="noun">
+        <input type="text" 
+           placeholder="A Dessert" 
+           id="dessert">
+        <input type="text" 
+           placeholder="Your Pet's Name" 
+           id="pet-name">
+
+        <button type="button" 
+                onclick="generate()">Generate</button>
+      </form>
+      <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
